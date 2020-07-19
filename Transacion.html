@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Transaciones</title>
+<link rel="stylesheet" type="text/css" href="C:/Users/daniel/Desktop/BicicletaTour\Estilos\transacion.css">
+<link rel="stylesheet" type="text/css" href="C:/Users/daniel/Desktop/BicicletaTour\Estilos\car.css">
+<link rel="stylesheet" type="text/css" href="C:/Users/daniel/Desktop/BicicletaTour\Estilos\Barra.css">
+<link rel="stylesheet" type="text/css" href="C:\Users\daniel\Desktop\BicicletaTour\Estilos\footer.css">
+
+<script type="text/javascript" src="C:\Users\daniel\Desktop\BicicletaTour\js\admin.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+<header>
+ <ul>
+  <li><a href="C:\Users\daniel\Desktop\BicicletaTour\index.html">Inicio</a></li>
+  <li><a href="C:\Users\daniel\Desktop\BicicletaTour\Adminitracion.html">Administracion</a></li>
+  <li><a href="C:\Users\daniel\Desktop\BicicletaTour\Consultas.html">Consultas para el usuarios</a></li>
+  <li><a href="C:\Users\daniel\Desktop\BicicletaTour\Transacion.html">Transaciones de usuario</a></li>
+  <li><a href="C:\Users\daniel\Desktop\BicicletaTour\Acercar.html">Acerca de</a></li>
+  <li style="float:right"><a href="C:\Users\daniel\Desktop\BicicletaTour\Registro.html">Registro</a></li>
+<script type="text/javascript" src="C:\Users\daniel\Desktop\BicicletaTour\js\admin.js"></script>
+  <li style="float:right"><a href="C:\Users\daniel\Desktop\BicicletaTour\InicioSeccion.html">InicioSeccion</a></li>
+</ul>
+</header>
+
+<section class="container">  
+  <div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <div class="card">
+      <h2>Solicitud de ruta</h2>
+      <div class="fakeimg" style="height:200px;"></div>
+ <p>Escoja su ruta ya sea  del spondylo o una ruta  de Manta para disfruta  del turismo y comida costeña se le garantiza que disfrutara de los mejores platos tipicos del pais haga su solicitud ya porfavor antes de que comienza el tour en bicicleta.</p> 
+      <h4>Seleccione una opcion para solicitar la ruta.</h4>
+  <form  name="EnviarForm"  id="form-orden">
+  <h5>Rutas del Tour en bicicleta</h5>
+  <input type="checkbox" name="Tour1" value="Bike">
+  <label for="Tour1">Ruta interna de manta</label><br>
+  <input type="checkbox" name="Tour2" value="Bikee">
+  <label for="Tour2">Ruta Spondylus</label><br>
+</p>
+
+  <p>
+    <label for="name">Nombre </label><br>
+    <input type="text" name="nombre" id="nombre"
+    placeholder="ingrese su nombre"
+    autofocus
+    autocomplete
+    required>
+  </p>
+<p>
+    <label for="name">Apellido </label><br>
+    <input type="text" name="apellido" id="apelldio"
+    placeholder="Ingrese su apellido"
+    autofocus
+    autocomplete
+    required>
+</p>
+<p>
+    <label for="name">Edad </label><br>
+    <input type="int" name="edad" id="edad"
+    placeholder="Ingrse su edad "
+    autofocus
+    autocomplete
+    required>
+</p>
+<p>
+    <label for="name">Pais</label><br>
+    <input type="text" name="pais" id="pai"
+    placeholder="Ingrese su pais "
+    autofocus
+    autocomplete
+    required>
+  </p>
+  <p>
+    <label for="email">Email</label>
+    <p><input type="text" id="email" 
+    placeholder="Qwe888@gmail.com"required /></p>
+  </p>
+    <p>
+      <input type="button" class="button" onclick="solicitar()" value="Enviar"  />
+    </p>
+</form> 
+  </div>
+</div>
+</div>  
+</section>
+
+<footer>
+     <p>Sitio creado por Jose Sanchez  con el tema  Bicicleta tour
+   </p> 
+</footer>
+</body>
+</html>

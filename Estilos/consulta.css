@@ -1,0 +1,88 @@
+div{
+  background-color: #A9A9F5;
+  border-left:50px; 
+  text-decoration-color: #070719;
+}
+p{
+ justify-content:20px; 
+  font-size: 21px;
+  width:center;
+}
+input{
+  height:auto;
+}
+label{
+  color:#000000;
+ font-size: 18px;
+}
+table{
+   text-decoration: none;
+    background-color:rgb(0, 191, 255);
+}
+th{
+  text-decoration: none;
+  color: white;
+  text-decoration: none;
+
+}
+tr{
+  border-color: #8181F7;
+  background-color: #8181F7;
+ 
+
+}
+footer{
+background-color:rgb(0, 191, 255);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+}
+body{
+  background-image:url("C:/Users/daniel/Desktop/BicicletaTour/Imagenes/bi.jpg");
+  background-position: center center;   
+  background-attachment: fixed;
+  background-size: cover;
+}
+section{
+background-color:rgb(235, 245, 251 );
+width: 870px; 
+margin: auto;
+background-color: solid;
+shape-margin: 80px;
+column-span: 80px;
+}
+.card {
+  background-color: white;
+  padding: 10px;
+  margin-top: 8px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.container{
+ background: #ebebeb;
+  width: center;
+  margin: center;
+  border-style: center;
+}
+
+@media screen and (max-width: 400px) {
+.topnav a {
+    float: none;
+    width: 80%;
+    padding: 88px;
+  }
+}

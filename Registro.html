@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registro</title>
+  <link rel="stylesheet" type="text/css" href="C:\Users\daniel\Desktop\BicicletaTour\Estilos\Barra.css">
+	<link rel="stylesheet" type="text/css" href="C:\Users\daniel\Desktop\BicicletaTour\Estilos\Registro.css" />
+    <script type="text/javascript" src="C:\Users\daniel\Desktop\BicicletaTour\js\validaciones.js"></script>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+   <header>
+  <ul>
+  <li><a href="C:\Users\daniel\Desktop\BicicletaTour\index.html">Inicio</a></li>
+  <li><a href="C:\Users\daniel\Desktop\BicicletaTour\Adminitracion.html">Administracion</a></li>
+  <li><a href="C:\Users\daniel\Desktop\BicicletaTour\Consultas.html">Consultas para el usuarios</a></li>
+  <li><a href="C:\Users\daniel\Desktop\BicicletaTour\Transacion.html">Transaciones de usuario</a></li>
+  <li><a href="C:\Users\daniel\Desktop\BicicletaTour\Acercar.html">Acerca de</a></li>
+  <li style="float:right"><a href="C:\Users\daniel\Desktop\BicicletaTour\Registro.html">Registro</a></li>
+  <li style="float:right"><a href="C:\Users\daniel\Desktop\BicicletaTour\InicioSeccion.html">InicioSeccion</a></li>
+</ul>
+</header>
+  <div>
+   <form action="index.html" onsubmit="checkInputs()">
+  <p>
+    <label for="nombre">Nombre </label><br>
+    <input type="text" name="nombre" id="nombre"
+    placeholder="ingrese su nombre"
+  >
+  </p>
+<p>
+    <label for="apellido">Apellido </label><br>
+    <input type="text" name="apellido" id="apelldio"
+    placeholder="Ingrese su apellido"
+    autofocus
+    autocomplete
+    required>
+  </p>
+
+<p>
+    <label for="edad">Edad </label><br>
+    <input type="text" name="edad" id="edad"
+    placeholder="Ingrse su edad "
+    autofocus
+    autocomplete
+    required>
+  </p>
+<p>
+    <label for="nacionalidad">Nacionalidad </label><br>
+    <input type="text" name="nacionalidad" id="nacionalidad"
+    placeholder="Ingrese su nacionalidad "
+    autofocus
+    autocomplete
+    required>
+  </p>
+  <p>
+    <label for="correo">Correo</label>
+    <p><input name="correo" id="correo" type="text" 
+    placeholder="Qwe888@gmail.com"required /></p>
+  </p>
+  <p>
+    <label for="passwd">Contraseña</label><br>
+    <input   type="password" name="password" id="password"
+    placeholder="Qwe1234" 
+    required/>( la contraseña debe obtener 3 letras y 4 numeros ordenadas)
+  </p>
+  <p>
+    <label for="verificar">Verifique contraseña</label><br>
+    <input   type="password" name="verificar" id="verificar"
+    placeholder="Qwe1234" 
+    required/>(La contraseña debe ser igual porfavor)
+  </p>
+
+    <button type="submit" class="button">Registrar</button> 
+    </p>
+</form>  
+  </div>
+<footer>
+     <p>Sitio creado por Jose Sanchez  con el tema  Bicicleta tour
+   </p> 
+</footer>
+</body>
+</html>

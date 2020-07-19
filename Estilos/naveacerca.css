@@ -1,0 +1,77 @@
+body {
+  display: block;
+   font-family: Arial, Helvetica, sans-serif;
+      background: #ebebeb;
+}
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 80%;
+  padding: 20px;
+  height:400px;
+  background-image:url("C:/Users/daniel/Desktop/BicicletaTour/Imagenes/rutspod.jpg");
+margin-left: 100px;
+position: relative;
+}
+/* Add a card effect for articles */
+.card {
+  margin:80px;
+  padding:20px;
+  margin-top: 1px;
+  border-style: solid;
+ background: #ebebeb;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  display: table;
+  clear: both;
+  border-style: ridge;
+  border-style: solid;
+  border-radius: 2px;
+}
+p{
+     justify-content:20px; 
+  font-size: 20px;
+  width:center;
+}
+
+section{ 
+width:auto; 
+margin: auto;
+background-color:rgb(0, 191, 255);
+border-style: ridge;
+background-color: solid;
+shape-margin: 8px;
+column-span: 8px;
+}
+/* Footer */
+footer{
+background-color:rgb(0, 191, 255);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+}
+
+h2{
+  font-size: 18px;
+  line-height: 18px;
+}
+h5{
+  font-size: 18px;
+  line-height: 18px;
+}
+.leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 20;
+  }
+}
+
+@media screen and (max-width: 800px) {
+.topnav a {
+    float: none;
+    width: 100%;
+  }
+}

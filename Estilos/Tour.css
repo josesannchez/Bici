@@ -1,0 +1,69 @@
+body{
+    display: block;
+   background-position: center center;   
+  background-attachment: fixed;
+  background-size: cover;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+
+   background-image:url("C:/Users/daniel/Desktop/BicicletaTour/Imagenes/tour.png");
+}
+p{
+  justify-content:10px; 
+  font-size: 18px;
+  width:center;
+
+  
+}
+h1{
+  background-color:#F8F8F8 ;
+  font-size: 18px;
+  line-height: 18px;
+}
+h4{
+  background-color:#F8F8F8 ;
+  font-size: 17px;
+  line-height: 17px;
+}
+section{
+width: 870px; 
+margin: auto;
+background-color:#F8F8F8 ;
+shape-margin: 80px;
+column-span: 80px;
+}
+
+footer{
+background-color:rgb(0, 191, 255);
+padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.card {
+background-color:#F8F8F8 ;
+ padding: 20px;
+ border-right: 20px;
+ border-left:20px; 
+ border-style: center;
+}
+.imagemont{
+  width: 800px;
+  background-image:url("C:/Users/daniel/Desktop/BicicletaTour/Imagenes/tour.png");
+  height: 400px;
+  margin: center;
+  background-position: center center;   
+  background-size:cover;
+}
+.ima{
+  width:800px;
+  background-image:url("C:/Users/daniel/Desktop/BicicletaTour/Imagenes/Mapa.png");
+  height: 450px;
+  background-position: center center;   
+  background-size:cover;
+  margin: center;
+}

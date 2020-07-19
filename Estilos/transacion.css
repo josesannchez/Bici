@@ -1,0 +1,80 @@
+body {
+  background-image: url("C:/Users/daniel/Desktop/BicicletaTour/Imagenes/Sol.jpg");
+  background-position: center center;   
+  background-attachment: fixed;
+  background-size: cover;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+p{
+  justify-content:10px; 
+  font-size: 18px;
+  width:center;
+}
+input{
+ background-color:rgb(235, 245, 251 );
+  padding: 2px;
+  border-radius: 4px;
+  border-color: black;
+  margin-left: 200px;
+  text-decoration-color: black;
+  font-size: 16px;
+}
+section{
+ background: #ebebeb;
+width: 80px;
+padding: 2px;
+text-align: left;
+text-decoration-color: 
+margin-top: 200px;
+}
+.container{
+ background: #ebebeb;
+  width: 80px;
+  margin:8px;
+  border-style: center;
+}
+
+
+/* Fake image */
+.fakeimg {
+  min-height:100px;
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+  background-image: url("C:/Users/daniel/Desktop/BicicletaTour/Imagenes/bi.jpg");
+}
+
+/* Add a card effect for articles */
+.card {
+background: #ebebeb;
+padding: 2px;
+border-radius:8px
+border-style: 2px;
+margin: 8px;
+}
+
+footer{
+background-color:rgb(0, 191, 255);
+     border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+}
+p{
+   justify-content:20px; 
+  font-size: 21px;
+  margin: center;
+}
+.button{
+  background-color:rgb(0, 191, 255);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  }
